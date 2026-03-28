@@ -1,0 +1,31 @@
+link 
+https://youtu.be/bEeoQt2ifFg
+
+Unity / VRoid 프로젝트 진행 상황 (피드백용)
+
+
+1. 캐릭터
+VRoid Studio로 캐릭터 제작 완료
+Unity에 임포트 후 AvatarTest로 적용
+
+2. 적용 기능
+텍스트에 기록: 적용한 기능, 이동 키 입력, 애니메이션 상태 등
+좌우 이동 확인 완료 (Input System 적용)
+Position X 값 캐릭터 이동 시 반영됨
+
+
+현재 상태:
+카메라 고정 → 바닥 울렁거림 미세 발생
+Cinemachine Virtual Camera 사용 전
+Follow/Look At 문제 미해결
+
+4. 문제점 / 미해결 사항
+Cinemachine Virtual Camera 적용 시: 캐릭터 좌우 이동 시 카메라가 따라오지 않음
+바닥 미세 흔들림 발생
+숏폼 9:16 화면 기준 안정적 구도 미완성
+
+5. 피드백 요청 사항
+9:16 숏폼 환경에서 안정적인 3인칭 카메라 세팅
+Cinemachine Virtual Camera Follow + Look At 적용 방법
+Root Motion 적용 시 바닥 울렁거림 해결
+카메라 Offset, Damping 값 추천
